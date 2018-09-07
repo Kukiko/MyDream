@@ -1,0 +1,39 @@
+print ("===========================================> VR2 <====================================================")
+
+
+def mix():
+           print(" your live the coffer ")
+           print(" = yeah")
+           print (" me too")
+           print (" okey come with me") 
+
+def ali_hgazey(name):
+           mix() 
+           print ("hi")
+           print ("My : name Ali")
+           print ("I'am programmer ")
+           print ("I have 18 years old ")
+           print ("i'm eygption")
+           print ("and, i will kill you".format(name))
+
+
+def My_Dream(Name):
+           mix() 
+           print ("I would be better at programming")
+           print ("I will not give up this dream")
+           print ("Try to stand in my way")
+           print ("You will find yourself defeated before me")
+           print ("Otherwise, I will not care about you")
+           print ("Mr, plesea".format(Name)) 
+
+stop = False
+
+while (stop != True) :
+           wake_up = input("write here your name :  ")
+           if wake_up == "ahmed":
+                     My_Dream(wake_up)
+           elif wake_up == "ali" :
+                      ali_hgazey(wake_up)
+           else :
+                      print ("You are dead because you do not have a dream")
+                      stop = True
